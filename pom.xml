@@ -43,6 +43,20 @@
       <version>1.2.3</version>
     </dependency>
   </dependencies>
+   <distributionManagement>  
+  <repository>
+  <id>nexus</id>
+  <name>AlacritiTech</name>
+  <url>http://localhost:8081/repository/rajesh_release/</url>
+  </repository>
+  
+  <snapshotRepository>
+  <id>nexus</id>
+  <name>AlacritiTech</name>
+  <url>http://localhost:8081/repository/jar_snapshot/</url>
+  </snapshotRepository>
+ 
+ </distributionManagement>
 
   <build>
     <plugins>
