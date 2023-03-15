@@ -17,7 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
      <sonar.url>http://localhost:9000</sonar.url>
-    <sonar.login>313abde39461d3bfc84a2714722c4430020f25c4</sonar.login>
+    <sonar.login>sqp_50f9b92468b60442b6c8958cdfd1309e4c8eedfc</sonar.login>
   </properties>
 
   <dependencies>
@@ -47,13 +47,13 @@
   <repository>
   <id>nexus</id>
   <name>AlacritiTech</name>
-  <url>http://localhost:8081/repository/rajesh_release/</url>
+  <url>http://localhost:8081/repository/Practice_Release/</url>
   </repository>
   
   <snapshotRepository>
   <id>nexus</id>
   <name>AlacritiTech</name>
-  <url>http://localhost:8081/repository/jar_snapshot/</url>
+  <url>http://localhost:8081/repository/Practice_Snapshot/</url>
   </snapshotRepository>
  
  </distributionManagement>
